@@ -1,0 +1,117 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(179, 175, 175);
+    background-size: cover;
+}
+nav img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+}
+nav ul {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin-right: 30px;
+}
+nav a {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    transition: 2s;
+    padding: 10px;
+}
+nav a:hover{
+    color: white;
+    background-color: rgb(57, 55, 55);
+    border-radius: 10px;
+}
+nav button{
+    float: right;
+    margin: auto 20px;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(51, 50, 50);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.body {
+    width: 80%;
+    margin: 30px auto;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px 3px grey;
+    border-radius: 5px;
+    display: flex;
+}
+.body-left {
+    width: 50%;
+    margin:auto;
+    padding: 20px;
+}
+.body-left p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 30px auto;
+}
+.contact {
+    color: white;
+    padding: 10px 25px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+.download {
+    font-size: 20px;
+    color: black;
+}
+.body-left ul {
+    margin: 50px;
+}
+.body-left ul li {
+    display: inline-flex;
+    margin: 20px;
+}
+.body-left ul  li a {
+    color: black;
+    font-size: 30px;
+}
+.body-right {
+    flex: 50%;
+    padding: 20px;
+    background-color: transparent;
+}
+.foot-right {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px 3px grey;
+}
+.foot-right img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.foot-right table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
