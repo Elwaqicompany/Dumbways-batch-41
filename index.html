@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="asset/index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <img src="https://avatars3.githubusercontent.com/u/34464790?s=220&v=4" alt="DU">
+            </li>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">My Project</a>
+            </li>
+        </ul>
+        <button>Contact Me</button>
+    </nav>
+    <form>
+        <h1>Sign In Now!</h1>
+        <div>
+            <label for="input-name">Name</label>
+            <input type="text" name="input-name" id="input-name">
+        </div>
+        <div>
+            <label for="input-email">Email</label>
+            <input type="email" name="" id="input-email">
+        </div>
+        <div>
+            <label for="input-phone">Phone  Number</label>
+            <input type="number" name="" id="input-phone">
+        </div>
+        <div>
+            <label for="input-subject">Subject</label>
+            <select name="" id="input-subject" >
+                <option  hidden>select</option>
+                <option>BonCabe</option>
+                <option>Mie Ayam</option>
+                <option>Bakso</option>
+                <option>Nasgor</option>
+            </select>
+        </div>
+        <div>
+            <label for="input-message">Your Message</label>
+            <textarea name="" id="input-message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="button" onclick="sendBiodata()">Submit</button>
+        </div>
+    </form>
+    <script src="asset/index.js"></script>
+</body>
+</html>
