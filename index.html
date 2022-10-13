@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post Blog</title>
+    <link rel="stylesheet" href="asset/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+            <ul>
+                <li>
+                    <img src="https://avatars3.githubusercontent.com/u/34464790?s=220&v=4" alt="">
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">My Project</a>
+                </li>
+            </ul>
+        <div>
+            <button type="button" onclick="">Contact Me</button>
+        </div>
+    </nav>
+    <form class="body" onsubmit="addBlog(event); this.reset(); return false" >
+        <h1>ADD MY PROJECT</h1>
+        <div>
+            <label for="input-title">Project Name</label>
+            <input type="text" class="title" id="input-title">
+        </div>
+        <div class="date">
+            <div class="date-left">
+                <label for="input-date">Start Date</label>
+                <input type="date" class="input-date" id="input-date">
+            </div>
+            <div class="date-right">
+                <label for="input-date">End Date</label>
+                <input type="date" class="input-date" id="input-date">
+            </div>
+        </div>
+        <div>
+            <label for="input-content">Description</label>
+            <textarea id="input-content" cols="30" rows="10"></textarea>
+        </div>
+        <h3>Technologies</h3>
+            <div class="check">
+                <div class="check-left">
+                    <div>
+                        <input type="checkbox" name="input-check" id="input-check">Node JS
+                    </div>
+                    <div>
+                        <input type="checkbox" name="input-check" id="input-check">React JS
+                    </div>
+                </div>
+                <div class="check-right">
+                    <div>
+                        <input type="checkbox" name="input-check" id="input-check">Next JS
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="input-check">TypeScript
+                    </div>
+                </div>
+            </div>
+        <div>
+            <label for="input-file">Upload Image</label>
+            <div class="input-img">
+                <label for="input-img">
+                    <p>choose</p>
+                    <i class="fa-solid fa-paperclip"></i>
+                </label>
+                <input type="file" class="file" id="input-img" hidden />
+            </div>
+        </div>
+
+        <div class="btn">
+            <button>submit</button>
+        </div>
+    </form>
+    <hr/>
+    <div class="post" id="post"></div>
+    <script src="asset/index.js"></script>
+</body>
+</html>
