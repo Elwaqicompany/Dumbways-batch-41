@@ -38,7 +38,7 @@ function renderBlog() {
             <img src="${dataBlog[index].image}" alt="post">
             <div class="post-time">
                 <h2>${dataBlog[index].title}</h2>
-                <p>${dataBlog[index].author} | durasi: ${dataBlog[index].posAt}</p>
+                <p>${dataBlog[index].author} | durasi: ${dataBlog[index].date}</p>
             
                 <p>${dataBlog[index].content}</p>
             </div>
