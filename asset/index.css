@@ -182,8 +182,9 @@ form button {
     width: 300px;
     padding: 8px;
     border-radius: 4px;
-    box-sizing: border-box;
-    display: block;
+    display: inline-bblock;
+    box-sizing: content-box;
+    display: fle;
     box-shadow: 2px 2px 2px 2px grey;
     margin:10px;
 }
