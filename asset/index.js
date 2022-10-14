@@ -33,7 +33,6 @@ function renderBlog() {
         const element = (dataBlog[index]);
         
         document.getElementById("post").innerHTML += `
-        <h1>My Project</h1>
         <div class="post-content">
             <img src="${dataBlog[index].image}" alt="post">
             <div class="post-time">
